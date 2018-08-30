@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    width: 100%;
+    color: #303030;
+}
+
+h1 {
+    font-size: 38px;
+    margin: 0 0 20px 0;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    margin: 0;
+}
+
+header,
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-container {
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 0;
+    font-size: 30px;
+}
+.dropbtn {
+  display: none;
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.nav-list>li {
+    list-style-type: none;
+}
+
+.nav-list>li>a {
+    text-decoration: none;
+    color: #303030;
+}
+
+.nav-list>li>a:hover {
+    color: #ef3934;
+}
+
+.nav-list>li>a:active {
+    color: #ef3934;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    margin-bottom: 20px;
+}
+
+.txt-based-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    padding: 40px;
+    background-color: #ef3934;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.txt-based-section>p {
+    margin: 0px 0 20px 0;
+}
+
+.txt-based-section>div {
+    width: 45%;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    min-width: 250px;
+}
+
+.txt-based-section>div>a {
+    text-decoration: none;
+    color: white;
+}
+
+.txt-based-section>div:hover {
+    background-color: #e7534e;
+}
+
+.fa-angle-right {
+    margin-left: 10px;
+}
+
+.img-based-section {
+    width: 50%;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.img-based-section>.img-wrapper>img {
+    width: 50%;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+.follow-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 38px;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.follow-container>p {
+    margin: 20px 0;
+}
+
+.follow-container>p>span {
+    color: #ef3934;
+    font-weight: bold;
+}
+
+.socials-container {
+    font-size: 50px;
+}
+
+.fa-facebook-square,
+.fa-instagram,
+.fa-pinterest-square,
+.fa-twitter-square {
+    color: #303030;
+    padding: 0 0 0 40px;
+}
+
+.fa-facebook-square:hover,
+.fa-instagram:hover,
+.fa-pinterest-square:hover,
+.fa-twitter-square:hover {
+    color: #ef3934;
+}
+
+hr {
+    margin-bottom: 20px;
+    background: #F2F2F2;
+    border: 0;
+    height: 1px;
+}
+
+.beer-types-container>h2 {
+    text-align: left;
+}
+
+.partner-container {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 10px rgba(129, 62, 62, 0.1);
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.partner-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 40px 0;
+}
+
+.partner-logo>img {
+    width: 30%;
+    min-width: 170px;
+}
+
+.partner-description {
+    text-align: left;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 40px 10px;
+}
+
+.partner-description>h2 {
+    margin: 0 0 30px 0;
+}
+
+.partner-description>p>span {
+    font-weight: bold;
+}
+
+.partner-description>div {
+    width: 40%;
+    min-width: 270px;
+    border: 1px solid #ef3934;
+    padding: 10px 12px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.partner-description>div>a {
+    text-decoration: none;
+    color: #ef3934;
+}
+
+.partner-description>div:hover {
+    background-color: #ef3934;
+}
+
+.partner-description>div:hover a {
+    color: white;
+}
+
+footer {
+    width: 100%;
+    background-color: #303030;
+    color: white;
+}
+
+.footer-nav {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0 20px 0;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.footer-nav>nav {
+    margin-right: 30px;
+}
+
+/* .footer-nav h2 {
+    margin: 0;
+} */
+
+.footer-nav .nav-container {
+    padding: 0;
+    font-size: 24px;
+}
+
+.footer-nav .nav-list {
+    margin: 0;
+}
+
+.footer-nav .nav-list a {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+.footer-nav .nav-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-company-title {
+    color: #ef3934;
+    font-weight: bold;
+}
+
+.copyright {
+    margin-top: 30px;
+    padding: 20px 0;
+}
+
+@media only screen and (max-width: 850px) {
+    header,
+    main {
+        width: 93%;
+    }
+    .section-container {
+        flex-direction: column;
+        box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    }
+    .txt-based-section,
+    .img-based-section {
+        width: 100%;
+    }
+    .follow-container {
+        flex-direction: column;
+    }
+    .fa-facebook-square,
+    .fa-instagram,
+    .fa-pinterest-square,
+    .fa-twitter-square {
+        padding: 0 20px 0 0;
+    }
+    .footer-nav {
+      width: 90%;
+      justify-content: space-between;
+  }
+  .footer-nav>nav {
+    margin-right: 0px;
+}
+}
+
+@media only screen and (max-width: 650px) {
+  .dropbtn {
+    display:block;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    padding:0;
+    color: #303030;
+  }
+  .nav-list {
+    display: none;
+  }
+
+  .dropdown-menu:hover .nav-list {
+    display: block;
+    text-align: left;
+}    
+  
+  .txt-based-section>div {
+    min-width: 200px;
+}
+    .partner-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .partner-logo,
+    .partner-description {
+        width: 100%;
+        padding: 20px 50px;
+    }
+    .partner-logo>img {
+        width: 30%;
+    }
+    .partner-description>h2 {
+        margin: 0;
+    }
+    .partner-description>div {
+        margin-top: 10px;
+        min-width: 200px;
+    }
+    .footer-nav {
+      flex-direction: column;
+      padding:20px 50px;
+    }
+
+  .footer-nav > .nav-container {
+    margin-top: 20px;
+  }
+}
