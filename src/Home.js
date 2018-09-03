@@ -10,16 +10,13 @@ import Footer from './Footer.js';
 
 class Home extends Component {
     render() {
-        // var arrayOfSections = []
-        // arrayOfSections.push(<ImageSection img="" />)
-        // arrayOfSections.push(<TextSection txt="" />)
         return (
             <div className="wrapper">
-                < Header />
+                < Header activePage={this.props.location.pathname} />
                 <main>
                     <SectionContainer>
                         <TextSection title="SHO SHO brewery" description="'You can't buy happiness but you can buy beer and that's kind of the same thing!'" />
-                        <ImageSection src="./cheers.svg"/>
+                        <ImageSection src="./cheers.svg" />
                     </SectionContainer>
                     <Follow />
                 </main>

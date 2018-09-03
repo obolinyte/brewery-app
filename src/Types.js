@@ -10,7 +10,7 @@ class Types extends Component {
     render() {
         return (
             <div className="wrapper">
-                < Header />
+                < Header activePage={this.props.location.pathname}/>
                 <main>
                     <div className="beer-types-container">
                     <hr />

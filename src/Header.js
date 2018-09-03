@@ -30,7 +30,7 @@ class Header extends Component {
         return (
             <header>
                 {isDesktop ? (
-          <DesktopMenu />
+          <DesktopMenu activePage={this.props.activePage}/>
         ) : (
           <MobileMenu />
         )}

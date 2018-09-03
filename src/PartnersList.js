@@ -10,7 +10,7 @@ class PartnersList extends Component {
     render() {
         return (
             <div className="wrapper">
-                < Header />
+                < Header activePage={this.props.location.pathname}/>
                
                 <main>
                 <hr />

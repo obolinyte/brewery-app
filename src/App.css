@@ -55,7 +55,7 @@ main {
     color: #ef3934;
 }
 
-.nav-list>li>a:active {
+.nav-list>li>.active {
     color: #ef3934;
 }
 
